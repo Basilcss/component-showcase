@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section className="row big:vh-100">
       <div className="col-8 big:col-4 big:flex-col-justifyCenter-alignCenter">
-        <div className="c big:w-60 m-1">
+        <div className="big:w-60 m-1">
           <h1 className="m-b-1">Lorem, ipsum dolor.</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nam
@@ -18,7 +18,7 @@ export default function Hero() {
       </div>
       <div className="col-8 big:col-4 big:flex-col-justifyCenter-alignCenter">
         <img
-          className="full-width big:w-60"
+          className="pic full-width big:w-80"
           id="randomImage"
           src={imageUrl}
           alt="Random Image"

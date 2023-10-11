@@ -5,7 +5,7 @@ export default function Hero() {
     <section style={{ backgroundColor: "#ebe7e7" }} className="row m-1 p-2">
       {dataArray.map((item, index) => (
         <div className="col-8 big:col-2" key={index}>
-          <img className="full-width" src={imageUrl} alt={item.title} />
+          <img className="pic full-width" src={imageUrl} alt={item.title} />
           <h2
             className="
              m-t-1"
