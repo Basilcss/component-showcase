@@ -18,7 +18,7 @@ export default function Hero() {
       </div>
       <div className="col-8 big:col-4 big:flex-col-justifyCenter-alignCenter">
         <img
-          className="pic full-width big:w-80"
+          className="pic full-width big:w-50"
           id="randomImage"
           src={imageUrl}
           alt="Random Image"
