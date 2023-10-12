@@ -1,9 +1,3 @@
-.pic {
-  background-size: cover;
-  background-position: center;
-  object-fit: cover;
-}
-
 .c-content {
   background-color: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(1px);

@@ -3,7 +3,7 @@ export default function SplitHero() {
   return (
     <section className="row">
       <img
-        className="c-pic col-8 full-width big:col-4 vh-80"
+        className="pic col-8 full-width big:col-4 vh-80"
         src={imageUrl}
         alt="lorem"
       />
